@@ -1,0 +1,42 @@
+
+body {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px; /* Space between menu items */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* slight shadow */
+    background-color: #fff;
+}
+
+.info {
+    flex: 1;
+    padding-right: 15px; /* space between text and image */
+}
+
+.info h2 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.image img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px; /* rounded image corners */
+}
